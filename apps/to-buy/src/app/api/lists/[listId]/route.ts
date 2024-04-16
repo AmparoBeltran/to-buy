@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { data } from "../../../../lib/data";
+import { data } from "@/lib/data";
 
 type RouteParams = {
   listId: string;
